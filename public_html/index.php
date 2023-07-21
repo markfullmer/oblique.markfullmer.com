@@ -9,7 +9,7 @@ $i = $_GET['i'] ?? array_rand($data);
   <head>
     <title><?php echo $data[$i]->text; ?> | An oblique strategy by Mark Fullmer</title>
 </head>
-<div style="height:90vh;width:90vw;display:table;">
+<div style="height:80vh;width:90vw;display:table;">
   <h1 style="display:table-cell;text-align:center;vertical-align:middle;font-size:4rem;">
     <a href="/index.php?i=<?php echo $i; ?>">#</a>
     <?php echo $data[$i]->text; ?>
