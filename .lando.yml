@@ -1,0 +1,4 @@
+name: oblique
+recipe: lamp
+config:
+  webroot: public_html
