@@ -10,11 +10,11 @@ $i = $_GET['i'] ?? array_rand($data);
     <title><?php echo $data[$i]->text; ?> | An oblique strategy by Mark Fullmer</title>
 </head>
 <div style="height:90vh;width:90vw;display:table;">
-  <h1 style="display:table-cell;text-align:center;vertical-align:middle;">
+  <h1 style="display:table-cell;text-align:center;vertical-align:middle;font-size:4rem;">
     <a href="/index.php?i=<?php echo $i; ?>">#</a>
     <?php echo $data[$i]->text; ?>
     <a href="/index.php">></a>
   </h1>
 </div>
-<a href="/wha.html">Wha?</a>
+<a style="font-size:2rem;" href="/wha.html">Wha?</a>
 </html>
