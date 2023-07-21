@@ -11,7 +11,9 @@ $i = $_GET['i'] ?? array_rand($data);
 </head>
 <div style="height:90vh;width:90vw;display:table;">
   <h1 style="display:table-cell;text-align:center;vertical-align:middle;">
+    <a href="/index.php?i=<?php echo $i; ?>">#</a>
     <?php echo $data[$i]->text; ?>
+    <a href="/index.php">></a>
   </h1>
 </div>
 <a href="/wha.html">Wha?</a>
